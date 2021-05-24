@@ -38,6 +38,7 @@ def induc():
         for k in range(3):
             if i == k:
                 Mat[i,k] = a[i]
+    Mat = (mu_0/2*np.pi)*Mat
     print('Matriz de inductancias\n',Mat)
 def trasposed_inductance():
     '''This function calculates the equivalent inductance if the matrix 
